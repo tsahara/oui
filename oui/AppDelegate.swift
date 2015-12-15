@@ -16,6 +16,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
+        
+        let oui = NSEntityDescription.insertNewObjectForEntityForName("OUI", inManagedObjectContext: self.managedObjectContext) as! ObjectUniqueIdentifierMO
+        
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {

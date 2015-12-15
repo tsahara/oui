@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F8EE49F1C2049E10000666E /* ObjectUniqueIdentifierMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8EE49E1C2049E10000666E /* ObjectUniqueIdentifierMO.swift */; };
 		1FA259241C1C50CE0061858D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA259231C1C50CE0061858D /* AppDelegate.swift */; };
 		1FA259271C1C50CE0061858D /* oui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FA259251C1C50CE0061858D /* oui.xcdatamodeld */; };
 		1FA259291C1C50CE0061858D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA259281C1C50CE0061858D /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F8EE49E1C2049E10000666E /* ObjectUniqueIdentifierMO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectUniqueIdentifierMO.swift; sourceTree = "<group>"; };
 		1FA259201C1C50CE0061858D /* oui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA259231C1C50CE0061858D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FA259261C1C50CE0061858D /* oui.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = oui.xcdatamodel; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				1FA259231C1C50CE0061858D /* AppDelegate.swift */,
+				1F8EE49E1C2049E10000666E /* ObjectUniqueIdentifierMO.swift */,
 				1FA259281C1C50CE0061858D /* Assets.xcassets */,
 				1FA2592A1C1C50CE0061858D /* MainMenu.xib */,
 				1FA2592D1C1C50CE0061858D /* Info.plist */,
@@ -195,6 +198,7 @@
 			files = (
 				1FA259241C1C50CE0061858D /* AppDelegate.swift in Sources */,
 				1FA259271C1C50CE0061858D /* oui.xcdatamodeld in Sources */,
+				1F8EE49F1C2049E10000666E /* ObjectUniqueIdentifierMO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +381,7 @@
 				1FA2593D1C1C50CE0061858D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FA2593E1C1C50CE0061858D /* Build configuration list for PBXNativeTarget "ouiTests" */ = {
 			isa = XCConfigurationList;
@@ -385,6 +390,7 @@
 				1FA259401C1C50CE0061858D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
